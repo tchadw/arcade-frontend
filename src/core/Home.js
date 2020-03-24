@@ -23,7 +23,10 @@ const Home = () => {
           <div class="carousel-item active">
             <img src={slider_1} class="d-block w-100" alt="Pink Arcade" fluid />
             <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
-              <h1 style={{ fontSize: "800%" }} fluid>
+              <h1
+                style={{ fontSize: "550%", textShadow: "3px 3px #000" }}
+                fluid
+              >
                 RENT&PLAY
               </h1>
               <br />
